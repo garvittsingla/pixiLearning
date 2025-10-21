@@ -1,6 +1,6 @@
 import {Application ,extend} from "@pixi/react"
-import { Assets, Container,Sprite, Texture, updateRenderGroupTransform } from "pixi.js"
-import { useCallback, useEffect, useMemo, useState } from "react"
+import { Assets, Container,Sprite } from "pixi.js"
+import { useCallback, useEffect, useState } from "react"
 import { calculateCanvasSize } from "../../helpers/common"
 import Level from "../Levels/Level"
 
